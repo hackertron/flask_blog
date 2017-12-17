@@ -272,8 +272,8 @@ def delete_article(id):
 
     flash('Article Deleted', 'success')
 
-    return redirect(url_for('dashboard')
+    return redirect(url_for('dashboard'))
 
 if __name__ == '__main__':
-	app.secret_key = 'secret123'
-	app.run(debug=True)
+    app.secret_key='secret123'
+    app.run(debug=True)
