@@ -1,6 +1,6 @@
 # flask_blog
 
-a simple blog made with flask .
+a simple blog made with flask.
 
 # Screenshots
 
